@@ -6,9 +6,9 @@ int main()
   do {
     printf("Enter a positive integer: ");
     scanf("%d", &num);
-  } while(num < 0);
+  } while(num  < 0);
 
-  int factorial;
+  int factorial = 1;
   for(int i=1; i<=num; i++)
     factorial = factorial*i;
 
